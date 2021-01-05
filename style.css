@@ -37,4 +37,37 @@ p{
     color: white;
     font-weight: 700;
 }
-h2{font: 600;}
+h2{font-size: 40px;}
+.top-padding{
+    padding-top: 50px;
+    
+}
+.dream{
+    background-image: url(images/dream-bg.png); 
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.sh{
+    box-shadow: 10px 10px 20px gray ;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+#lt{border-left: 10px solid ;
+    border-image:linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;}
+#bc{border-left: 10px solid ;
+    border-image:linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;}
+
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
